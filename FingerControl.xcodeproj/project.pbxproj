@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC3D9CCA1AC5D845006B9F6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3D9CC91AC5D845006B9F6A /* AppDelegate.m */; };
+		CC3D9CCC1AC5D845006B9F6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3D9CCB1AC5D845006B9F6A /* main.m */; };
+		CC3D9CCF1AC5D845006B9F6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3D9CCE1AC5D845006B9F6A /* ViewController.m */; };
+		CC3D9CD11AC5D845006B9F6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3D9CD01AC5D845006B9F6A /* Images.xcassets */; };
+		CC3D9CD41AC5D845006B9F6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3D9CD21AC5D845006B9F6A /* Main.storyboard */; };
+		CC3D9CE01AC5D845006B9F6A /* FingerControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3D9CDF1AC5D845006B9F6A /* FingerControlTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC3D9CDA1AC5D845006B9F6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC3D9CBB1AC5D845006B9F6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC3D9CC21AC5D845006B9F6A;
+			remoteInfo = FingerControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC3D9CC31AC5D845006B9F6A /* FingerControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3D9CC71AC5D845006B9F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC3D9CC81AC5D845006B9F6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC3D9CC91AC5D845006B9F6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC3D9CCB1AC5D845006B9F6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC3D9CCD1AC5D845006B9F6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC3D9CCE1AC5D845006B9F6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC3D9CD01AC5D845006B9F6A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC3D9CD31AC5D845006B9F6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC3D9CD91AC5D845006B9F6A /* FingerControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3D9CDE1AC5D845006B9F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC3D9CDF1AC5D845006B9F6A /* FingerControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerControlTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC3D9CC01AC5D845006B9F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3D9CD61AC5D845006B9F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC3D9CBA1AC5D845006B9F6A = {
+			isa = PBXGroup;
+			children = (
+				CC3D9CC51AC5D845006B9F6A /* FingerControl */,
+				CC3D9CDC1AC5D845006B9F6A /* FingerControlTests */,
+				CC3D9CC41AC5D845006B9F6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC3D9CC41AC5D845006B9F6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC3D9CC31AC5D845006B9F6A /* FingerControl.app */,
+				CC3D9CD91AC5D845006B9F6A /* FingerControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC3D9CC51AC5D845006B9F6A /* FingerControl */ = {
+			isa = PBXGroup;
+			children = (
+				CC3D9CC81AC5D845006B9F6A /* AppDelegate.h */,
+				CC3D9CC91AC5D845006B9F6A /* AppDelegate.m */,
+				CC3D9CCD1AC5D845006B9F6A /* ViewController.h */,
+				CC3D9CCE1AC5D845006B9F6A /* ViewController.m */,
+				CC3D9CD01AC5D845006B9F6A /* Images.xcassets */,
+				CC3D9CD21AC5D845006B9F6A /* Main.storyboard */,
+				CC3D9CC61AC5D845006B9F6A /* Supporting Files */,
+			);
+			path = FingerControl;
+			sourceTree = "<group>";
+		};
+		CC3D9CC61AC5D845006B9F6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC3D9CC71AC5D845006B9F6A /* Info.plist */,
+				CC3D9CCB1AC5D845006B9F6A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC3D9CDC1AC5D845006B9F6A /* FingerControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC3D9CDF1AC5D845006B9F6A /* FingerControlTests.m */,
+				CC3D9CDD1AC5D845006B9F6A /* Supporting Files */,
+			);
+			path = FingerControlTests;
+			sourceTree = "<group>";
+		};
+		CC3D9CDD1AC5D845006B9F6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC3D9CDE1AC5D845006B9F6A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC3D9CC21AC5D845006B9F6A /* FingerControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3D9CE31AC5D845006B9F6A /* Build configuration list for PBXNativeTarget "FingerControl" */;
+			buildPhases = (
+				CC3D9CBF1AC5D845006B9F6A /* Sources */,
+				CC3D9CC01AC5D845006B9F6A /* Frameworks */,
+				CC3D9CC11AC5D845006B9F6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FingerControl;
+			productName = FingerControl;
+			productReference = CC3D9CC31AC5D845006B9F6A /* FingerControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC3D9CD81AC5D845006B9F6A /* FingerControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3D9CE61AC5D845006B9F6A /* Build configuration list for PBXNativeTarget "FingerControlTests" */;
+			buildPhases = (
+				CC3D9CD51AC5D845006B9F6A /* Sources */,
+				CC3D9CD61AC5D845006B9F6A /* Frameworks */,
+				CC3D9CD71AC5D845006B9F6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC3D9CDB1AC5D845006B9F6A /* PBXTargetDependency */,
+			);
+			name = FingerControlTests;
+			productName = FingerControlTests;
+			productReference = CC3D9CD91AC5D845006B9F6A /* FingerControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC3D9CBB1AC5D845006B9F6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Coco Ding";
+				TargetAttributes = {
+					CC3D9CC21AC5D845006B9F6A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CC3D9CD81AC5D845006B9F6A = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CC3D9CC21AC5D845006B9F6A;
+					};
+				};
+			};
+			buildConfigurationList = CC3D9CBE1AC5D845006B9F6A /* Build configuration list for PBXProject "FingerControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC3D9CBA1AC5D845006B9F6A;
+			productRefGroup = CC3D9CC41AC5D845006B9F6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC3D9CC21AC5D845006B9F6A /* FingerControl */,
+				CC3D9CD81AC5D845006B9F6A /* FingerControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC3D9CC11AC5D845006B9F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3D9CD11AC5D845006B9F6A /* Images.xcassets in Resources */,
+				CC3D9CD41AC5D845006B9F6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3D9CD71AC5D845006B9F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC3D9CBF1AC5D845006B9F6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3D9CCF1AC5D845006B9F6A /* ViewController.m in Sources */,
+				CC3D9CCC1AC5D845006B9F6A /* main.m in Sources */,
+				CC3D9CCA1AC5D845006B9F6A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3D9CD51AC5D845006B9F6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3D9CE01AC5D845006B9F6A /* FingerControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC3D9CDB1AC5D845006B9F6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC3D9CC21AC5D845006B9F6A /* FingerControl */;
+			targetProxy = CC3D9CDA1AC5D845006B9F6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC3D9CD21AC5D845006B9F6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC3D9CD31AC5D845006B9F6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC3D9CE11AC5D845006B9F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CC3D9CE21AC5D845006B9F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC3D9CE41AC5D845006B9F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FingerControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC3D9CE51AC5D845006B9F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FingerControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC3D9CE71AC5D845006B9F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FingerControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FingerControl.app/Contents/MacOS/FingerControl";
+			};
+			name = Debug;
+		};
+		CC3D9CE81AC5D845006B9F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FingerControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FingerControl.app/Contents/MacOS/FingerControl";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC3D9CBE1AC5D845006B9F6A /* Build configuration list for PBXProject "FingerControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3D9CE11AC5D845006B9F6A /* Debug */,
+				CC3D9CE21AC5D845006B9F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3D9CE31AC5D845006B9F6A /* Build configuration list for PBXNativeTarget "FingerControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3D9CE41AC5D845006B9F6A /* Debug */,
+				CC3D9CE51AC5D845006B9F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC3D9CE61AC5D845006B9F6A /* Build configuration list for PBXNativeTarget "FingerControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3D9CE71AC5D845006B9F6A /* Debug */,
+				CC3D9CE81AC5D845006B9F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC3D9CBB1AC5D845006B9F6A /* Project object */;
+}
