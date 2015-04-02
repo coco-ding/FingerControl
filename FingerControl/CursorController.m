@@ -22,20 +22,16 @@ CursorController *_cursorController = nil;
 
 - (id)init {
     if ((self = [super init])) {
-        evsrc = CGEventCreateSourceFromEvent(kCGEventSourceStateCombinedSessionState);
+        _evsrc = CGEventCreateSourceFromEvent(kCGEventSourceStateCombinedSessionState);
     }
     return self;
 }
 
 - (void)moveCursorTo:(CGPoint)point {
-    
-//    NSBezierPath
-//    CAAnimation
-    
-    CGEventSourceSetLocalEventsSuppressionInterval(evsrc, 1);
-    CGAssociateMouseAndMouseCursorPosition (0);
+    CGEventSourceSetLocalEventsSuppressionInterval(_evsrc, 1.0);
+//    CGAssociateMouseAndMouseCursorPosition (0);
     CGWarpMouseCursorPosition(point);
-    CGAssociateMouseAndMouseCursorPosition (1);
+//    CGAssociateMouseAndMouseCursorPosition (1);
 }
 
 @end

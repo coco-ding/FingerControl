@@ -10,7 +10,7 @@
 #import <CoreGraphics/CoreGraphics.h>
 
 @interface CursorController : NSObject {
-    CGEventSourceRef evsrc;
+    CGEventSourceRef _evsrc;
 }
 
 + (CursorController *)sharedController;
