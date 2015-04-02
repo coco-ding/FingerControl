@@ -7,9 +7,21 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "FingerTracker.h"
+#import "HSVControlView.h"
 
-@interface ViewController : NSViewController
+@interface ViewController : NSViewController <FingerTrackerDelegate, HSVControlViewDelegate> {
+    FingerTracker *_tracker;
+    
+//    IBOutlet NSSlider *_lowHSlider, *_highHSlider, *_lowSSlider, *_highSSlider, *_lowVSlider, *_highVSlider;
+    
+}
 
+@property (nonatomic) int lowH, highH, lowS, highS, lowV, highV;
+
+@property (atomic, strong) HSVControlView *view;
+
+- (IBAction)updateRange:(id)sender;
 
 @end
 

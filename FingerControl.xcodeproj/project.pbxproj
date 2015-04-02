@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC01A9851ACA28AE00B26C70 /* DisplacementFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC01A9831ACA28AE00B26C70 /* DisplacementFilter.cpp */; };
 		CC3D9CCA1AC5D845006B9F6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3D9CC91AC5D845006B9F6A /* AppDelegate.m */; };
 		CC3D9CCC1AC5D845006B9F6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3D9CCB1AC5D845006B9F6A /* main.m */; };
-		CC3D9CCF1AC5D845006B9F6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3D9CCE1AC5D845006B9F6A /* ViewController.m */; };
+		CC3D9CCF1AC5D845006B9F6A /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC3D9CCE1AC5D845006B9F6A /* ViewController.mm */; };
 		CC3D9CD11AC5D845006B9F6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3D9CD01AC5D845006B9F6A /* Images.xcassets */; };
 		CC3D9CD41AC5D845006B9F6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3D9CD21AC5D845006B9F6A /* Main.storyboard */; };
 		CC3D9CE01AC5D845006B9F6A /* FingerControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3D9CDF1AC5D845006B9F6A /* FingerControlTests.m */; };
+		CCA6645C1AC5D9BE00A3D3CA /* FingerTracker.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCA6645B1AC5D9BE00A3D3CA /* FingerTracker.mm */; };
+		CCA6645F1AC5DEB300A3D3CA /* CursorController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA6645E1AC5DEB300A3D3CA /* CursorController.m */; };
+		CCE078B41AC79363007D02C6 /* HSVControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE078B31AC79363007D02C6 /* HSVControlView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,18 +30,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC01A9831ACA28AE00B26C70 /* DisplacementFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DisplacementFilter.cpp; sourceTree = "<group>"; };
+		CC01A9841ACA28AE00B26C70 /* DisplacementFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplacementFilter.h; sourceTree = "<group>"; };
+		CC01A9861ACA41B900B26C70 /* iterable_queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = iterable_queue.hpp; sourceTree = "<group>"; };
 		CC3D9CC31AC5D845006B9F6A /* FingerControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3D9CC71AC5D845006B9F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC3D9CC81AC5D845006B9F6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CC3D9CC91AC5D845006B9F6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CC3D9CCB1AC5D845006B9F6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC3D9CCD1AC5D845006B9F6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CC3D9CCE1AC5D845006B9F6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC3D9CCE1AC5D845006B9F6A /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		CC3D9CD01AC5D845006B9F6A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CC3D9CD31AC5D845006B9F6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC3D9CD91AC5D845006B9F6A /* FingerControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3D9CDE1AC5D845006B9F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC3D9CDF1AC5D845006B9F6A /* FingerControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerControlTests.m; sourceTree = "<group>"; };
+		CCA6645A1AC5D9BE00A3D3CA /* FingerTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerTracker.h; sourceTree = "<group>"; };
+		CCA6645B1AC5D9BE00A3D3CA /* FingerTracker.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FingerTracker.mm; sourceTree = "<group>"; };
+		CCA6645D1AC5DEB300A3D3CA /* CursorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CursorController.h; sourceTree = "<group>"; };
+		CCA6645E1AC5DEB300A3D3CA /* CursorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CursorController.m; sourceTree = "<group>"; };
+		CCE078B21AC79363007D02C6 /* HSVControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSVControlView.h; sourceTree = "<group>"; };
+		CCE078B31AC79363007D02C6 /* HSVControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSVControlView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +95,16 @@
 				CC3D9CC81AC5D845006B9F6A /* AppDelegate.h */,
 				CC3D9CC91AC5D845006B9F6A /* AppDelegate.m */,
 				CC3D9CCD1AC5D845006B9F6A /* ViewController.h */,
-				CC3D9CCE1AC5D845006B9F6A /* ViewController.m */,
+				CC3D9CCE1AC5D845006B9F6A /* ViewController.mm */,
+				CCE078B21AC79363007D02C6 /* HSVControlView.h */,
+				CCE078B31AC79363007D02C6 /* HSVControlView.m */,
+				CCA6645D1AC5DEB300A3D3CA /* CursorController.h */,
+				CCA6645E1AC5DEB300A3D3CA /* CursorController.m */,
+				CCA6645A1AC5D9BE00A3D3CA /* FingerTracker.h */,
+				CCA6645B1AC5D9BE00A3D3CA /* FingerTracker.mm */,
+				CC01A9831ACA28AE00B26C70 /* DisplacementFilter.cpp */,
+				CC01A9841ACA28AE00B26C70 /* DisplacementFilter.h */,
+				CC01A9861ACA41B900B26C70 /* iterable_queue.hpp */,
 				CC3D9CD01AC5D845006B9F6A /* Images.xcassets */,
 				CC3D9CD21AC5D845006B9F6A /* Main.storyboard */,
 				CC3D9CC61AC5D845006B9F6A /* Supporting Files */,
@@ -215,7 +237,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC3D9CCF1AC5D845006B9F6A /* ViewController.m in Sources */,
+				CCE078B41AC79363007D02C6 /* HSVControlView.m in Sources */,
+				CC3D9CCF1AC5D845006B9F6A /* ViewController.mm in Sources */,
+				CC01A9851ACA28AE00B26C70 /* DisplacementFilter.cpp in Sources */,
+				CCA6645F1AC5DEB300A3D3CA /* CursorController.m in Sources */,
+				CCA6645C1AC5D9BE00A3D3CA /* FingerTracker.mm in Sources */,
 				CC3D9CCC1AC5D845006B9F6A /* main.m in Sources */,
 				CC3D9CCA1AC5D845006B9F6A /* AppDelegate.m in Sources */,
 			);
@@ -285,9 +311,21 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lopencv_core",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+					"-lopencv_objdetect",
+				);
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -321,8 +359,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-lopencv_core",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+					"-lopencv_objdetect",
+				);
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -404,6 +454,7 @@
 				CC3D9CE51AC5D845006B9F6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC3D9CE61AC5D845006B9F6A /* Build configuration list for PBXNativeTarget "FingerControlTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +463,7 @@
 				CC3D9CE81AC5D845006B9F6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
