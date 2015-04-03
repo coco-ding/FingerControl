@@ -18,15 +18,16 @@
     
     self.view.delegate = self;
     
-    self.lowH = 170;
+    self.lowH = 175;
     self.highH = 179;
     self.lowS = 182;
     self.highS = 255;
     self.lowV = 80;
     self.highV = 255;
     
-    HSVRange range = {170, 179, 0, 255, 0, 255};
-    _tracker = [[FingerTracker alloc] initWithHSVRange:range];
+    HSVRange range = {_lowH, _highH, _lowS, _highS, _lowV, _highV};
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"pattern" ofType:@"dat"];
+    _tracker = [[FingerTracker alloc] initWithHSVRange:range patternFile:path];
     _tracker.delegate = self;
     [_tracker startTracking];
     
@@ -82,7 +83,11 @@
         case 'y':
             self.highV--;
             break;
-        
+        case 's': {
+            NSString *path = [[NSBundle mainBundle] pathForResource:@"pattern" ofType:@"dat"];
+            [_tracker writeContourToFile:path];
+            break;
+        }
         default:
             return;
     }

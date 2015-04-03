@@ -10,6 +10,7 @@
 #import <opencv2/opencv.hpp>
 #import <opencv2/highgui/highgui.hpp>
 #import <opencv2/imgproc/imgproc.hpp>
+#import <vector>
 
 
 typedef struct _HSVRange {
@@ -31,15 +32,18 @@ typedef struct _HSVRange {
     HSVRange _range;
     cv::VideoCapture *_camCap;
     NSTimer *_trackingTimer;
+    cv::Rect _patternRect;
 }
 
 @property (atomic) HSVRange range;
 @property (atomic) CGPoint fingerPosition;
+@property (readonly) BOOL isPatternLoaded;
 @property (unsafe_unretained) id<FingerTrackerDelegate> delegate;
 
-- (id)initWithHSVRange:(HSVRange)range;
+- (id)initWithHSVRange:(HSVRange)range patternFile:(NSString *)path;
 
 - (BOOL)startTracking;
 - (BOOL)stopTracking;
+- (void)writeContourToFile:(NSString *)path;
 
 @end
